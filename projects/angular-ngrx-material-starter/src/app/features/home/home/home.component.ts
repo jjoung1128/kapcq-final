@@ -1,12 +1,12 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'kw-child',
-  templateUrl: './child.component.html',
-  styleUrls: ['./child.component.scss'],
+  selector: 'kw-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ChildComponent implements OnInit {
+export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}

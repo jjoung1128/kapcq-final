@@ -10,7 +10,7 @@ import {
 import { State } from '../examples.state';
 
 @Component({
-  selector: 'anms-examples',
+  selector: 'kw-examples',
   templateUrl: './examples.component.html',
   styleUrls: ['./examples.component.scss'],
   animations: [routeAnimations],
@@ -20,18 +20,18 @@ export class ExamplesComponent implements OnInit {
   isAuthenticated$: Observable<boolean>;
 
   examples = [
-    { link: 'todos', label: 'anms.examples.menu.todos' },
-    { link: 'stock-market', label: 'anms.examples.menu.stocks' },
-    { link: 'theming', label: 'anms.examples.menu.theming' },
-    { link: 'crud', label: 'anms.examples.menu.crud' },
+    { link: 'todos', label: 'kw.examples.menu.todos' },
+    { link: 'stock-market', label: 'kw.examples.menu.stocks' },
+    { link: 'theming', label: 'kw.examples.menu.theming' },
+    { link: 'crud', label: 'kw.examples.menu.crud' },
     {
       link: 'simple-state-management',
-      label: 'anms.examples.menu.simple-state-management'
+      label: 'kw.examples.menu.simple-state-management'
     },
-    { link: 'form', label: 'anms.examples.menu.form' },
-    { link: 'notifications', label: 'anms.examples.menu.notifications' },
-    { link: 'elements', label: 'anms.examples.menu.elements' },
-    { link: 'authenticated', label: 'anms.examples.menu.auth', auth: true }
+    { link: 'form', label: 'kw.examples.menu.form' },
+    { link: 'notifications', label: 'kw.examples.menu.notifications' },
+    { link: 'elements', label: 'kw.examples.menu.elements' },
+    { link: 'authenticated', label: 'kw.examples.menu.auth', auth: true }
   ];
 
   constructor(private store: Store<State>) {}

@@ -1,9 +1,9 @@
 @import '~@angular/material/theming';
 
-@mixin anms-parent-component-theme($theme) {
+@mixin kw-parent-component-theme($theme) {
   $accent: map-get($theme, accent);
 
-  anms-parent {
+  kw-parent {
     > .container {
       > .row {
         > .col-md-6 {
