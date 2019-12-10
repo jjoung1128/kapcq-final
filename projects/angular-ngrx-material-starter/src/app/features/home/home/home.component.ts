@@ -7,7 +7,11 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomeComponent implements OnInit {
+  mainVideo: string;
+
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.mainVideo = '../../../../assets/main-background.mp4';
+  }
 }
